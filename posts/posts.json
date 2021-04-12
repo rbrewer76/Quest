@@ -1,0 +1,26 @@
+[
+  {
+    "id": "uc-rangerclass", 
+    "title": "Coming Soon: The Ranger Class",
+    "date": "March 23, 2021",
+    "img": "/img/news/ranger.jpg",
+    "desc": "The Ranger excells at combat from the 2nd Rank, striking before an attacker can close the distance. Learn more about this upcoming class addition!",
+    "content": "4"
+  },
+  {
+    "id": "i-arcane-sorc",
+    "title": "An Introduction to Arcane Magic",
+    "date": "March 11, 2021",
+    "img": "/img/news/arcane.jpg",
+    "desc": "Sorcerers and Clerics begin with spells from Arcane Specialization: Arcane, a sorcery that specializes in sorcerous energy and force. Click to learn more about the magic these classes wield!",
+    "content": "5"
+  },
+  {
+    "id": "i-armor-info",
+    "title": "A Primer on Armor",
+    "date": "February 9, 2021",
+    "img": "/img/news/armor.jpg",
+    "desc": "Unless you are a robe wearing sorcerer you most likely want to deck yourself out in some protective armor. Learn how the skill Armor-Training and your Might determine what you can wear." ,
+    "content": "6"
+  }
+]
