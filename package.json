@@ -1,0 +1,23 @@
+{
+  "name": "quest",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Quest Project",
+  "main": "pages/index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "firebase": "^8.3.0",
+    "next": "^10.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "recoil": "^0.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
