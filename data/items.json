@@ -1,0 +1,739 @@
+[
+  {
+    "iid": "100",
+    "name": "Claw",
+    "type": "weapon",
+    "slot": ["mainhand", "offhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 1, "moderate": 2, "severe": 4}, 
+      "mods": ["Light", "Precision"]
+    },    
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "101",
+    "name": "Dagger",
+    "type": "weapon",
+    "slot": ["mainhand", "offhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 1, "moderate": 2, "severe": 4}, 
+      "mods": ["Light", "Precision"]
+    },  
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "102",
+    "name": "Knife",
+    "type": "weapon",
+    "slot": ["mainhand", "offhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 1, "moderate": 2, "severe": 4}, 
+      "mods": ["Light", "Precision"]
+    },      
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "103",
+    "name": "Hand Crossbow",
+    "type": "weapon",
+    "slot": ["ranged"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 1, "moderate": 2, "severe": 4}, 
+      "mods": ["Light", "Precision"]
+    },      
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "104",
+    "name": "Hand Mace",
+    "type": "weapon",
+    "slot": ["mainhand", "offhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 1, "moderate": 2, "severe": 4}, 
+      "mods": ["Light", "Precision"]
+    },      
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "105",
+    "name": "Whip",
+    "type": "weapon",
+    "slot": ["mainhand", "offhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 1, "moderate": 2, "severe": 4}, 
+      "mods": ["Light", "Precision"]
+    },  
+    "rarity": "normal",
+    "value": 0
+  },
+
+
+
+
+  {
+    "iid": "110",
+    "name": "Axe",
+    "type": "weapon",
+    "slot": ["mainhand", "offhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 2, "moderate": 5, "severe": 8}, 
+      "mods": ["Medium"]
+    },  
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "111",
+    "name": "Bastard Sword",
+    "type": "weapon",
+    "slot": ["mainhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 2, "moderate": 5, "severe": 8}, 
+      "mods": ["Medium"]
+    },  
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "112",
+    "name": "Bladed Whip",
+    "type": "weapon",
+    "slot": ["mainhand", "offhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 1, "moderate": 3, "severe": 6}, 
+      "mods": ["Medium", "Precision"]
+    },  
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "113",
+    "name": "Club",
+    "type": "weapon",
+    "slot": ["mainhand", "offhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 1, "moderate": 3, "severe": 6}, 
+      "mods": ["Medium"]
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "114",
+    "name": "Crossbow",
+    "type": "weapon",
+    "slot": ["ranged"],
+    "profile": {
+      "hands": "2h", 
+      "damage": {"type": "physical", "light": 2, "moderate": 5, "severe": 8}, 
+      "mods": ["Medium"]
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "115",
+    "name": "Flail",
+    "type": "weapon",
+    "slot": ["mainhand", "offhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 2, "moderate": 5, "severe": 8}, 
+      "mods": ["Medium"]
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "116",
+    "name": "Glaive",
+    "type": "weapon",
+    "slot": ["mainhand", "offhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 2, "moderate": 5, "severe": 8}, 
+      "mods": ["Medium"]
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "117",
+    "name": "Hammer",
+    "type": "weapon",
+    "slot": ["mainhand", "offhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 2, "moderate": 5, "severe": 8}, 
+      "mods": ["Medium"]
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "118",
+    "name": "Hand Axe",
+    "type": "weapon",
+    "slot": ["mainhand", "offhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 1, "moderate": 3, "severe": 6}, 
+      "mods": ["Medium"]
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "119",
+    "name": "Longbow",
+    "type": "weapon",
+    "slot": ["ranged"],
+    "profile": {
+      "hands": "2h", 
+      "damage": {"type": "physical", "light": 2, "moderate": 5, "severe": 8}, 
+      "mods": ["Medium"],
+      "require": {
+        "att": {"might": 3}}
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "120",
+    "name": "Longsword",
+    "type": "weapon",
+    "slot": ["mainhand", "offhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 2, "moderate": 5, "severe": 8}, 
+      "mods": ["Medium"]
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "121",
+    "name": "Mace",
+    "type": "weapon",
+    "slot": ["mainhand", "offhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 2, "moderate": 5, "severe": 8}, 
+      "mods": ["Medium"]
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "122",
+    "name": "Polearm",
+    "type": "weapon",
+    "slot": ["mainhand"],
+    "profile": {
+      "hands": "2h", 
+      "damage": {"type": "physical", "light": 2, "moderate": 5, "severe": 8}, 
+      "mods": ["Medium"]
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "123",
+    "name": "Rapier",
+    "type": "weapon",
+    "slot": ["mainhand", "offhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 1, "moderate": 3, "severe": 6}, 
+      "mods": ["Medium", "Precision"]
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "124",
+    "name": "Scythe",
+    "type": "weapon",
+    "slot": ["mainhand"],
+    "profile": {
+      "hands": "2h", 
+      "damage": {"type": "physical", "light":2 , "moderate": 5, "severe": 8}, 
+      "mods": ["Medium"]
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "125",
+    "name": "Shortbow",
+    "type": "weapon",
+    "slot": ["mainhand"],
+    "profile": {
+      "hands": "2h", 
+      "damage": {"type": "physical", "light": 1, "moderate": 3, "severe": 6}, 
+      "mods": ["Medium"]
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "126",
+    "name": "Shortspear",
+    "type": "weapon",
+    "slot": ["mainhand", "offhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 1, "moderate": 3, "severe": 6}, 
+      "mods": ["Medium", "Precision"]
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "127",
+    "name": "Shortsword",
+    "type": "weapon",
+    "slot": ["mainhand", "offhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 1, "moderate": 3, "severe": 6}, 
+      "mods": ["Medium", "Precision"]
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "128",
+    "name": "Sickle",
+    "type": "weapon",
+    "slot": ["mainhand", "offhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 1, "moderate": 3, "severe": 6}, 
+      "mods": ["Medium"]
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "129",
+    "name": "Spear",
+    "type": "weapon",
+    "slot": ["mainhand"],
+    "profile": {
+      "hands": "2h", 
+      "damage": {"type": "physical", "light": 2, "moderate": 5, "severe": 8}, 
+      "mods": ["Medium"]
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "130",
+    "name": "Staff",
+    "type": "weapon",
+    "slot": ["mainhand", "offhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 1, "moderate": 3, "severe": 6}, 
+      "mods": ["Medium"]
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+
+
+
+
+  {
+    "iid": "140",
+    "name": "Great Axe",
+    "type": "weapon",
+    "slot": ["mainhand"],
+    "profile": {
+      "hands": "2h", 
+      "damage": {"type": "physical", "light": 4, "moderate": 8, "severe": 12}, 
+      "mods": ["Heavy"],
+      "require": {
+        "att": {"might": 5}}
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "141",
+    "name": "Great Club",
+    "type": "weapon",
+    "slot": ["mainhand"],
+    "profile": {
+      "hands": "2h", 
+      "damage": {"type": "physical", "light": 4, "moderate": 8, "severe": 12}, 
+      "mods": ["Heavy"],
+      "require": {
+        "att": {"might": 5}}
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "142",
+    "name": "Greatsword",
+    "type": "weapon",
+    "slot": ["mainhand"],
+    "profile": {
+      "hands": "2h", 
+      "damage": {"type": "physical", "light": 4, "moderate": 8, "severe": 12}, 
+      "mods": ["Heavy"],
+      "require": {
+        "att": {"might": 5}}
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "143",
+    "name": "Heavy Crossbow",
+    "type": "weapon",
+    "slot": ["ranged"],
+    "profile": {
+      "hands": "2h", 
+      "damage": {"type": "physical", "light": 4, "moderate": 8, "severe": 12}, 
+      "mods": ["Heavy"],
+      "require": {
+        "att": {"might": 5}}
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "144",
+    "name": "Heavy Flail",
+    "type": "weapon",
+    "slot": ["mainhand"],
+    "profile": {
+      "hands": "2h", 
+      "damage": {"type": "physical", "light": 4, "moderate": 8, "severe": 12}, 
+      "mods": ["Heavy"],
+      "require": {
+        "att": {"might": 5}}
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "145",
+    "name": "War Bow",
+    "type": "weapon",
+    "slot": ["ranged"],
+    "profile": {
+      "hands": "2h", 
+      "damage": {"type": "physical", "light": 4, "moderate": 8, "severe": 12}, 
+      "mods": ["Heavy"],
+      "require": {
+        "att": {"might": 5}}
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "146",
+    "name": "War Mace",
+    "type": "weapon",
+    "slot": ["mainhand"],
+    "profile": {
+      "hands": "2h", 
+      "damage": {"type": "physical", "light": 4, "moderate": 8, "severe": 12}, 
+      "mods": ["Heavy"],
+      "require": {
+        "att": {"might": 5}}
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "147",
+    "name": "Warhammer",
+    "type": "weapon",
+    "slot": ["mainhand"],
+    "profile": {
+      "hands": "2h", 
+      "damage": {"type": "physical", "light": 4, "moderate": 8, "severe": 12}, 
+      "mods": ["Heavy"],
+      "require": {
+        "att": {"might": 5}}
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+
+
+
+  {
+    "iid": "200",
+    "name": "Robe",
+    "type": "armor",
+    "slot": ["body"],
+    "profile": {
+      "defense": 1,
+      "mods": []
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "201",
+    "name": "Leather Armor",
+    "type": "armor",
+    "slot": ["body"],
+    "profile": {
+      "defense": 2,
+      "mods": ["Light"],
+      "require": {
+        "expertise": {"Armor Training": 1}}
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "210",
+    "name": "Chainmail Armor",
+    "type": "armor",
+    "slot": ["body"],
+    "profile": {
+      "defense": 3,
+      "mods": ["Medium"],
+      "require": {
+        "att": {"might": 3}, 
+        "expertise": {"Armor Training": 2}}
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "211",
+    "name": "Scale Armor",
+    "type": "armor",
+    "slot": ["body"],
+    "profile": {
+      "defense": 4,
+      "mods": ["Medium"],
+      "require": {
+        "att": {"might": 3}, 
+        "expertise": {"Armor Training": 2}}
+    },
+    "rarity": "normal",
+    "value": 0
+  },      
+  {
+    "iid": "212",
+    "name": "Breastplate Armor",
+    "type": "armor",
+    "slot": ["body"],
+    "profile": {
+      "defense": 4,
+      "mods": ["Medium"],
+      "require": {
+        "att": {"might": 3}, 
+        "expertise": {"Armor Training": 2}}
+    },
+    "rarity": "normal",
+    "value": 0
+  }, 
+  {
+    "iid": "220",
+    "name": "Splint Armor",
+    "type": "armor",
+    "slot": ["body"],
+    "profile": {
+      "defense": 6,
+      "mods": ["Heavy"],
+      "require": {
+        "att": {"might": 5}, 
+        "expertise": {"Armor Training": 3}}
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "221",
+    "name": "Half Plate Armor",
+    "type": "armor",
+    "slot": ["body"],
+    "profile": {
+      "defense": 6,
+      "mods": ["Heavy"],
+      "require": {
+        "att": {"might": 5}, 
+        "expertise": {"Armor Training": 3}}
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "222",
+    "name": "Full Plate Armor",
+    "type": "armor",
+    "slot": ["body"],
+    "profile": {
+      "defense": 8,
+      "mods": ["Heavy"],
+      "require": {
+        "att": {"might": 5}, 
+        "expertise": {"Armor Training": 3}}
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  
+  {
+    "iid": "230",
+    "name": "Buckler",
+    "type": "shield",
+    "slot": ["offhand"],
+    "profile": {
+      "defense": 1,
+      "mods": ["Light"]
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "231",
+    "name": "Light Shield",
+    "type": "shield",
+    "slot": ["offhand"],
+    "profile": {
+      "defense": 1,
+      "mods": ["Light"]
+    },
+    "rarity": "normal",
+    "value": 0
+  }, 
+  {
+    "iid": "232",
+    "name": "Shield",
+    "type": "shield",
+    "slot": ["offhand"],
+    "profile": {
+      "defense": 2,
+      "mods": ["Medium"]
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+  {
+    "iid": "233",
+    "name": "Heavy Shield",
+    "type": "shield",
+    "slot": ["offhand"],
+    "profile": {
+      "defense": 3,
+      "mods": ["Heavy"],
+      "require": {
+        "att": {"might": 3}}
+    },
+    "rarity": "normal",
+    "value": 0
+  },           
+  {
+    "iid": "234",
+    "name": "Tower Shield",
+    "type": "shield",
+    "slot": ["offhand"],
+    "profile": {
+      "defense": 5,
+      "mods": ["Heavy"],
+      "require": {
+        "att": {"might": 5}}
+    },
+    "rarity": "normal",
+    "value": 0
+  },
+
+
+
+
+
+
+
+
+  {
+    "iid": "620",
+    "name": "Test Magical Longsword",
+    "type": "weapon",
+    "slot": ["mainhand", "offhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 2, "moderate": 5, "severe": 8}, 
+      "mods": ["Medium"],
+      "ench": 1,
+      "enchmods": {"critical": 1, "accuracy": 1, "physical": 2, "acid": 5}
+    },
+    "rarity": "epic",
+    "value": 0
+  },
+  {
+    "iid": "621",
+    "name": "Test Magical Leather Armor",
+    "type": "armor",
+    "slot": ["body"],
+    "profile": {
+      "defense": 2,
+      "mods": ["Light"],
+      "ench": 3,
+      "enchmods": {"acid": 5, "death": 5, "maxhp": 5},
+      "require": {
+        "expertise": {"Armor Training": 1}}
+    },
+    "rarity": "unique",
+    "value": 0
+  },
+  {
+    "iid": "622",
+    "name": "Test Magical Longsword",
+    "type": "weapon",
+    "slot": ["mainhand", "offhand"],
+    "profile": {
+      "hands": "1h", 
+      "damage": {"type": "physical", "light": 2, "moderate": 5, "severe": 8}, 
+      "mods": ["Medium"],
+      "ench": 2,
+      "enchmods": {"accuracy": 2, "death": 2, "arcane": 5}
+    },
+    "rarity": "epic",
+    "value": 0
+  },
+  {
+    "iid": "623",
+    "name": "Frostcleave",
+    "type": "weapon",
+    "slot": ["mainhand"],
+    "profile": {
+      "hands": "2h", 
+      "damage": {"type": "physical", "light": 4, "moderate": 8, "severe": 12}, 
+      "mods": ["Heavy"],
+      "ench": 3,
+      "enchmods": {"physical": 10, "cold": 20, "critical": 2, "armorpen": 5},
+      "require": {
+        "att": {"might": 5}}
+    },
+    "rarity": "unique",
+    "value": 0
+  }
+
+]

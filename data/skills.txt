@@ -1,0 +1,6 @@
+
+{"id": "dec", "name": "Deceive", "desc": ""} 
+{"id": "poi", "name": "Poison", "desc": ""} 
+{"id": "thi", "name": "Thievery", "desc": ""}
+{"id": "tra", "name": "Traps", "desc": ""}
+{"id": "enc", "name": "Enchanter", "desc": ""},

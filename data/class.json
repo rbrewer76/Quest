@@ -1,0 +1,85 @@
+[
+  {
+    "id": "bar",
+    "name": "Bard",
+    "icon": "/img/creation/classicons/bard.png",
+    "img": "/img/creation/classpic/bard.png",
+    "desc": "Bards are performers and entertainers who weave sorcery through their art - their instrument a natural extension of themselves. Songs of sorcery captivate and ensnare all who observe their performance. Charming and craving for attention, all eyes are always on the bard.",
+    "att": [2, 5, 2, 2, 5, 4],
+    "skills": ["Cartography", "Charm", "Insight", "Knowledge", "Stealth"],
+    "expertise": ["Armor Training", "Battle Mage", "Deftness",  "Dodge", "Precision Weapons"],
+    "arcanespec": ["Songs of Sorcery"]
+  },
+  {
+    "id": "cle",
+    "name": "Cleric",
+    "icon": "/img/creation/classicons/cleric.png",
+    "img": "/img/creation/classpic/cleric.png",
+    "desc": "Clerics wield arcane energy in reverence to some ideal or principle, usually in the name of some powerful being who aligns with these beliefs. Often very charismatic, they seek to expand their influence by teaching others to live by the same values. A cleric's regalia is an important aspect of their devotion and makes them easily identifiable.",
+    "att": [2, 2, 3, 5, 3, 5],
+    "skills": ["Arcana", "Charm", "Insight"],
+    "expertise": ["Armor Training", "Battle Mage", "Dispeller"],
+    "arcanespec": ["Arcane"]
+  },
+  {
+    "id": "dru",
+    "name": "Druid",
+    "icon": "/img/creation/classicons/druid.png",    
+    "img": "/img/creation/classpic/druid.png",
+    "desc": "Druids are guardians whose sorcery focuses on life and elements of nature. Living in the wilderness they are friends to all animals, and share an unbreakable bond with their animal companion. They have learned to survive in the wilds they have sworn to protect.",
+    "att": [3, 3, 4, 4, 3, 3],
+    "skills": ["Alchemy", "Medicine", "Survival"],
+    "expertise": ["Animal Companion", "Armor Training", "Battle Mage"],
+    "arcanespec": ["Druidic"]
+  },  
+  {
+    "id": "pal",
+    "name": "Paladin",
+    "icon": "/img/creation/classicons/paladin.png",    
+    "img": "/img/creation/classpic/paladin.png",
+    "desc": "Paladins are the militant arm of an Order. They fiercly dedicate their lives to the upholding of their Order's values. Their training makes them skillful duelist as well as capable sorcerers. Often, they hold an unerring line of morality.",
+    "att": [5, 1, 5, 6, 2, 1],
+    "skills": ["Athletics", "Insight"],
+    "expertise": ["Armor Training", "Battle Mage"],
+    "arcanespec": ["Protection"]
+  },  
+  {
+    "id": "rog",
+    "name": "Rogue",
+    "icon": "/img/creation/classicons/rogue.png",    
+    "img": "/img/creation/classpic/rogue.png",
+    "desc": "Rogues rely on their cunning to survive. Prefering to hide in the shadows they wait for an opportune time to strike. They are adept in using light weapons, relying on their gracefulness rather than sheer might.",
+    "att": [2, 6, 3, 3, 6, 0],
+    "skills": ["Cartography", "Climbing", "Disarm Trap", "Open Lock", "Perception", "Stealth"],
+    "expertise": ["Aim", "Armor Training", "Critical Strikes", "Deftness", "Dodge", "Precision Weapons"],
+    "arcanespec": []
+  },  
+  {
+    "id": "sor",
+    "name": "Sorcerer",
+    "icon": "/img/creation/classicons/sorcerer.png",    
+    "img": "/img/creation/classpic/sorcerer.png",    
+    "desc": "Sorcerers wield arcane energy, weaving their power into an assortment of wonderful effects. Some study diligently while others have an innate ability to weave their magic. They are completely reliant on their powerful, sorcerous abilities.",
+    "att": [1, 4, 1, 4, 4, 6],
+    "skills": ["Alchemy", "Arcana", "Insight", "Knowledge"],
+    "expertise": ["Battle Mage", "Counterspelling", "Dodge", "Spellweave"],
+    "arcanespec": ["Arcane"]
+
+  },
+  {
+    "id": "war",
+    "name": "Warrior",
+    "icon": "/img/creation/classicons/warrior.png",
+    "img": "/img/creation/classpic/warrior.png",    
+    "desc": "Warriors focus on the physicality of combat. Their motivations varied, these skilled fighters bring their sheer might to bear on the battlefield. These champions of combat may fight fiercly to protect their allies or nations.",
+    "att": [6, 2, 6, 3, 3, 0],
+    "skills": ["Athletics", "Climbing", "Survival"],
+    "expertise": ["Armor Training", "Leadership", "Vitality"],
+    "arcanespec": []
+  }    
+]
+
+
+
+
+

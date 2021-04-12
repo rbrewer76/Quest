@@ -1,0 +1,29 @@
+types: 
+
+armor         slot:  head, body, hands, boots, back, belt, ring1, ring2, neck
+chest   
+key
+weapon        slot   1h, 2h
+
+
+
+
+rarity:     normal, uncommon, rare, epic, unique
+
+
+
+
+
+{
+  "iid": "",
+  "name": "",
+  "type": "weapon",
+  "slot": ["mainhand"],
+  "profile": {
+    "hands": [], 
+    "damage": {"light": , "moderate": , "severe": }, 
+    "mods": [""]
+  },
+  "rarity": "normal",
+  "value": 0
+},

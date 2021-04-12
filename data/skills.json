@@ -1,0 +1,18 @@
+[
+  {"id": "alc", "name": "Alchemy", "desc": ""},
+  {"id": "arc", "name": "Arcana", "desc": ""},
+  {"id": "ath", "name": "Athletics", "desc": ""},
+  {"id": "car", "name": "Cartography", "desc": ""},
+  {"id": "cha", "name": "Charm", "desc": ""},  
+  {"id": "enc", "name": "Climbing", "desc": ""},
+  {"id": "dit", "name": "Disarm Trap", "desc": ""},
+  {"id": "ins", "name": "Insight", "desc": ""},  
+  {"id": "kno", "name": "Knowledge", "desc": ""},    
+  {"id": "med", "name": "Medicine", "desc": ""},
+  {"id": "opl", "name": "Open Lock", "desc": ""},
+  {"id": "per", "name": "Perception", "desc": ""},
+  {"id": "ste", "name": "Stealth", "desc": ""},
+  {"id": "sur", "name": "Survival", "desc": ""}
+]
+
+

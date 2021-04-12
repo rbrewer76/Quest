@@ -1,0 +1,166 @@
+{
+  "region": 
+  {
+    "regid": "4",
+    "name": "The Eastern Forest"
+  },
+  "room": [
+    {
+      "rid": "400",
+      "name": "The Village at the Edge",
+      "desc": 
+      [
+        "A village of no name lies under the shadow of a nearby forest. An oppressive gloom lingers over it, a faint mist continuously comes and goes. What few townsfolk there are look warily at you. Not surprisingly, they do not receive many guests.",
+        "You are able to find shelter under an abandoned home's partially collapsed roof for a moment of respite. This wretched village has nothing left to offer."
+      ],
+      "img": "/img/rooms/400.jpg",      
+      "exits": [
+        {"dir": "n", "rid": "401"}
+      ]      
+    },
+    {
+      "rid": "401",
+      "name": "The Forest Where None Go",
+      "desc": 
+      [
+        "You have long left the safety of the village. The canopy above, getting thicker, blots out almost all light. You feel as if you are smothering, the encroaching trees tightening their grasp around you. Absolute stillness. No breeze, no movement, no signs of life."
+      ],
+      "img": "/img/rooms/401.jpg",
+      "exits": 
+      [
+        {"dir": "n", "rid": "402"}, 
+        {"dir": "e", "rid": "405"},        
+        {"dir": "s", "rid": "400"}
+      ]      
+    },
+    {
+      "rid": "402",
+      "name": "The Spider's Lair",
+      "desc":
+      [
+        "You stand surrounded by silk covered trees and a deathly silence permeates the air. Bones litter the ground - human and animal. One false step could land you in a web with no means of escape.",
+        "Two man-sized spiders descend from the trees. A flood of tiny, skittering spiders follow in their wake."
+      ],
+      "img": "/img/rooms/402.jpg",
+      "exits": 
+      [
+        {"dir": "n", "rid": "404", "hidden": 1}, 
+        {"dir": "s", "rid": "401"}, 
+        {"dir": "w", "rid": "403"}
+      ]
+    },
+    {
+      "rid": "403",
+      "name": "Ix'tyl the Bloated's Lair",
+      "desc": 
+      [
+        "A massive bloated arachnid sits on the ground facing away from you. As you enter it's feeding ground it senses your pressence and turns to face you, light dancing across its numerous bulbous eyes.",
+        "You have heard tales of Ix'tyl the Bloated. Stories of village folk and wildlife disappearing to never be found. It is fight or never be heard from again."
+      ],
+      "img": "/img/rooms/403.jpg",
+      "exits": 
+      [
+       {"dir": "e", "rid": "402"}
+      ]
+    },
+    {
+      "rid": "404",
+      "name": "The Dumping Grounds",
+      "desc": 
+      [
+        "You cut through thick strands of web to clear a path to a small, hidden clearing in the web covered trees.",
+        "Desiccated bodies of all sorts litter the ground. Looking closer you notice bonds on some of them. It seems some of these victims were unwilling."
+      ],
+      "img": "/img/rooms/404.jpg",
+      "exits": 
+      [
+        {"dir": "s", "rid": "402"}
+      ]
+    },
+    {
+      "rid": "405",
+      "name": "The Forest Where None Go",
+      "desc": 
+      [
+        "A trail leads deeper into the greater forest. Here the trees are bare of leaves and faint flicks of light occasionally dance nearby. The trail turns damp, perhaps there is a water source nearby."
+      ],
+      "img": "/img/rooms/405.jpg",
+      "exits":
+      [
+        {"dir": "e", "rid": "406"},
+        {"dir": "w", "rid": "401"}
+      ]
+    },
+    {
+      "rid": "406",
+      "name": "The Forest Where None Go",
+      "desc": 
+      [
+        "A small pool of water has collected here. Your feet press deeply into the soft muddy earth. Occasionally you catch the glimpse of a reflection from people clearly not there."
+      ],
+      "img": "/img/rooms/406.jpg",
+      "exits":
+      [
+        {"dir": "e", "rid": "407"},
+        {"dir": "w", "rid": "405"}
+      ]
+    },
+    {
+      "rid": "407",
+      "name": "A Forest River",
+      "desc": 
+      [
+        "You come upon a river deep within the forest. After a long trek, the flowing water looks quite inviting. In stark contrast to this dead side of the forest, the opposite looks much more vibrant."
+      ],
+      "img": "/img/rooms/407.jpg",
+      "exits":
+      [
+        {"dir": "n", "rid": "408"},
+        {"dir": "w", "rid": "406"}
+      ]
+    },
+    {
+      "rid": "408",
+      "name": "A Forest River",
+      "desc": 
+      [
+        "The river begins to wind upward with small waterfalls."
+      ],
+      "img": "/img/rooms/408.jpg",
+      "exits":
+      [
+        {"dir": "e", "rid": "409"},
+        {"dir": "s", "rid": "407"}
+      ]
+    },
+    {
+      "rid": "409",
+      "name": "A Forgotten Tower",
+      "desc": 
+      [
+        "A large stone tower looms ahead. Forgotten by time, its exterior has begun to crumble and the bottom half has been over taken by vines reaching upward."
+      ],
+      "img": "/img/rooms/409.jpg",
+      "exits":
+      [
+        {"dir": "w", "rid": "408"},
+        {"dir": "u", "rid": "410", "locked": 1}        
+      ]
+    },
+    {
+      "rid": "410",
+      "name": " Tower - Floor 1",
+      "desc": 
+      [
+        "Inside the tower has remained undisturbed for years. A thick layer of dust has settled over everything. Small rodent prints skitter across the floor and wooden shelves that hang falling apart.",
+        "Books and bottles lie scattered about. This tower must have once served as home to a sorcerer."
+      ],
+      "img": "/img/rooms/410.jpg",
+      "exits":
+      [
+        {"dir": "d", "rid": "409"}
+      ]
+
+    }        
+  ]
+}

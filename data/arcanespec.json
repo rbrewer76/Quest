@@ -1,0 +1,56 @@
+[
+  {
+    "id": "arc", "name": "Arcane", "desc": "", "img": "/public/icons/arcane-specs/as-arcane.jpg"
+  },
+  {
+    "id": "con", "name": "Control", "desc": "", "img": "/public/icons/arcane-specs/as-control.jpg"
+  },
+  {
+    "id": "des", "name": "Destruction", "desc": "/public/icons/arcane-specs/as-destruction.jpg", "img": ""
+  },
+  {
+    "id": "dru", "name": "Druidic", "desc": "", "img": "/public/icons/arcane-specs/as-druidic.jpg", "require": {"id": "dru"}
+  },
+  {
+    "id": "ell", "name": "Elemental", "desc": "", "img": ""
+  },
+  {
+    "id": "ela", "name": "Elemental Air", "desc": "", "img": "/public/icons/arcane-specs/as-air.jpg"
+  },
+  {
+    "id": "ele", "name": "Elemental Earth", "desc": "", "img": ""
+  },
+  {
+    "id": "elf", "name": "Elemental Fire", "desc": "", "img": "/public/icons/arcane-specs/as-fire.jpg"
+  },
+  {
+    "id": "elw", "name": "Elemental Water", "desc": "", "img": "/public/icons/arcane-specs/as-water.jpg"
+  },
+  {
+    "id": "enc", "name": "Enchantment", "desc": "", "img": "/public/icons/arcane-specs/as-enchantment.jpg"
+  },
+  {
+    "id": "hea", "name": "Healing", "desc": "", "img": "/public/icons/arcane-specs/as-healing.jpg"
+  },
+  {
+    "id": "ill", "name": "Illusion", "desc": "", "img": "/public/icons/arcane-specs/as-illusion.jpg"
+  },
+  {
+    "id": "nec", "name": "Necromancy", "desc": "", "img": "/public/icons/arcane-specs/as-necromancy.jpg"
+  },
+  {
+    "id": "pro", "name": "Protection", "desc": "", "img": "/public/icons/arcane-specs/as-protection.jpg"
+  },
+  {
+    "id": "sha", "name": "Shadow", "desc": "", "img": "/public/icons/arcane-specs/as-shadow.jpg"
+  },
+  {
+    "id": "sos", "name": "Songs of Sorcery", "desc": "", "img": "", "require": {"id": "bar"}
+  },
+  {
+    "id": "sum", "name": "Summoning", "desc": "", "img": "/public/icons/arcane-specs/as-summoning.jpg"
+  },
+  {
+    "id": "wit", "name": "Witchcraft", "desc": "", "img": "/public/icons/arcane-specs/as-witchcraft.jpg"
+  }
+]
