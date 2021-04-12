@@ -1,0 +1,18 @@
+.colwrap {
+  width: 30%;          
+}
+.title {
+  padding-top: 5px;  
+  text-align: center;
+}         
+.statwrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;                 
+}
+.stat {
+  color: var(--orange1-color);
+}
+.value {
+  color: var(--green1-color);
+}

@@ -1,0 +1,115 @@
+#invwrap {
+  position: absolute;
+  margin: 5px;
+  height: calc(100vh - 20px);
+  width: 450px;  
+  font-size: 16px;
+  overflow: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  background-color: black;
+}
+#raritytoolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#raritywrap {
+  display: flex;
+}
+.filter {
+  margin: 5px;
+  height: 15px;
+  width: 15px;
+}
+.filter.normal {
+  background-color: var(--normal-color);
+}
+.filter.uncommon {
+  background-color: var(--uncommon-color);
+}
+.filter.rare {
+  background-color: var(--rare-color);
+}
+.filter.epic {
+  background-color: var(--epic-color);
+}
+.filter.unique {
+  background-color: var(--unique-color);
+}
+.filter.all {
+  background-image: linear-gradient(to right, var(--normal-color), var(--uncommon-color), var(--rare-color), var(--epic-color), var(--unique-color));
+} 
+.itemwrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  border-left: solid 2px black;
+}
+.itemwrap:hover {
+  border-left: solid 2px var(--orange1-color);
+  
+}
+.item {
+  margin: 5px;
+  width: 100%;
+}
+.normal {
+  color: var(--normal-color)
+}
+.uncommon {
+  color: var(--uncommon-color);
+}
+.rare {
+  color: var(--rare-color);
+}
+.epic {
+  color: var(--epic-color);
+}
+.unique {
+  color: var(--unique-color);
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+  height: 26px;
+  border-bottom: solid 1px #303030;
+}
+.drop {
+  display: none;
+}
+.itemwrap:hover .drop {
+  display: inline;
+}
+.col {
+  display: flex;
+  justify-content: space-between;      
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.line {
+  display: flex;
+}
+.mods {
+  margin-left: 36px;
+  color: lightgreen;
+}
+.require {
+  margin-left: 36px;
+}
+.currencywrap {
+  display: flex;
+  margin: 5px 5px 0 5px;  
+  width: 100%;
+}
