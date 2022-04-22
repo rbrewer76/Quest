@@ -1,0 +1,268 @@
+{
+  "region":
+  {
+    "regid": "1",
+    "name": "Arkkward City"
+  },
+  "room": [
+    {
+      "rid": "100",
+      "name": "Arkkward Town Square",
+      "desc": 
+      [
+        "The center gathering place of town, bustling with tradesman and shoppers fgg g dfs gdfsg df sgdfsgdsf g",
+        "adsfsadf  dsfadf sa dfsadfas dfs a dfsfdssf sadf sd fsad sdfaasd"
+      ],
+      "img": "/img/rooms/100.jpg",      
+      "exits": [
+        {"dir": "n", "rid": "108"},
+        {"dir": "e", "rid": "109"},
+        {"dir": "w", "rid": "114"}
+      ]      
+    },
+    {
+      "rid": "101",
+      "name": "The Whispering Wind Tavern",
+      "desc": 
+      [
+        "A place known for its lively nightlife, the Whispering Wind Tavern, attracts folk from all walks of life. Known affectionately by the locals as simply The Wind, here everyone comes for a drink and a place to escape the day. Bards entertain with song, dance, and epic tales, tavern wenches serve unending lines of patrons, all in a place where gossip and rumor never end.",
+        ""
+      ],
+      "img": "/img/rooms/101.jpg",      
+      "exits": [
+        {"dir": "s", "rid": "116"}
+      ],
+      "options" : [
+        {"id": "100", "name": "Keerla Viraxalim, Innkeep"},
+        {"id": "101", "name": "Siora Artris, Bard Virtuoso"}
+      ]
+    },
+    {
+      "rid": "102",
+      "name": "Cleric Sanctum",
+      "desc": 
+      [
+        "A place for clerics",
+        "adsfsadf  dsfadf sa dfsadfas dfs a dfsfdssf sadf sd fsad sdfaasd"
+      ],
+      "img": "/img/rooms/102.jpg",      
+      "exits": [
+        {"dir": "e", "rid": "108"}
+      ]      
+    },
+    {
+      "rid": "103",
+      "name": "Druid Grove",
+      "desc": 
+      [
+        "Gathering place for druids",
+        "adsfsadf  dsfadf sa dfsadfas dfs a dfsfdssf sadf sd fsad sdfaasd"
+      ],
+      "img": "/img/rooms/103.jpg",      
+      "exits": [
+        {"dir": "s", "rid": "113"}
+      ]      
+    },
+    {
+      "rid": "104",
+      "name": "Sanctuary of Aramia",
+      "desc": 
+      [
+        "A statue of Aramia towers over the grand, central chamber of the sanctuary, a beautiful, but hardened human woman adorned in shining plate armor, holding Celestia, her fiery greatsword. Praises of Aramia are sung of her unwavering kindness and devotion to those unable to defend themselves against the many terrors of the land.",
+        "Aramia's paladins within the Order of the Flame do not worship her directly, instead they hold her ideals of good and justice in reverence. She is the compass of their morality. Traveling the lands they perform miracles for those in need, and render swift justice to those who would render harm unto others."
+      ],
+      "img": "/img/rooms/104.jpg",      
+      "exits": [
+        {"dir": "w", "rid": "108"}
+      ],
+      "options": [
+        {"id": "102", "name": "Rewalt, First Justicar"}
+      ]
+    },
+    {
+      "rid": "105",
+      "name": "Ring of Shadow",
+      "desc": 
+      [
+        "Beneath the Port District lies a compact of rogues, The Ring of Shadow, masters of all illicit trade and activity within Arkkward. A cloistered den of scheming and riches, rogues of all sort converge here to plot their next pursuit.",
+        "Control of the Ring is dictated by vote amongst a council of three. Secrecy is to live, betrayal is to die by the Umbral Guard, a group of assassins tasked to hunt down and silence any who would disrupt the Ring's operations.",
+        "Above is an abandoned warehouse that serves as the entrance to the den, the city port granting easy access to shipments abroad. To the east lies a secret tunnel to the Eastern Approach which is used for smuggling and avoiding city patrols."
+      ],
+      "img": "/img/rooms/105.jpg",      
+      "exits": [
+        {"dir": "u", "rid": "111"},
+        {"dir": "e", "rid": "113"}
+      ],
+      "options": [
+        {"id": "103", "name": "Vesryn, Umbral Fence"},
+        {"id": "104", "name": "Silent Lady Helaneth, Grand Trickster", "quest": "104"}
+      ]
+    },
+    {
+      "rid": "106",
+      "name": "Spire of Sorcery",
+      "desc": 
+      [
+        "Gathering place for sorcerers",
+        "adsfsadf  dsfadf sa dfsadfas dfs a dfsfdssf sadf sd fsad sdfaasd"
+      ],
+      "img": "/img/rooms/106.jpg",      
+      "exits": [
+        {"dir": "e", "rid": "110"}
+      ],
+      "options": [
+        {"id": "105", "name": "Arcanist Elror"},
+        {"id": "107", "name": "Teleportation Obelisk"}   
+
+      ]
+
+    },
+    {
+      "rid": "107",
+      "name": "Training Grounds",
+      "desc": 
+      [
+        "Gathering place for warriors",
+        "adsfsadf  dsfadf sa dfsadfas dfs a dfsfdssf sadf sd fsad sdfaasd"
+      ],
+      "img": "/img/rooms/107.jpg",      
+      "exits": [
+        {"dir": "n", "rid": "112"}
+      ]      
+    },
+    {
+      "rid": "108",
+      "name": "Temple District",
+      "desc": 
+      [
+        "road through temple district",
+        "adsfsadf  dsfadf sa dfsadfas dfs a dfsfdssf sadf sd fsad sdfaasd"
+      ],
+      "img": "/img/rooms/108.jpg",      
+      "exits": [
+        {"dir": "e", "rid": "104"},
+        {"dir": "s", "rid": "100"},   
+        {"dir": "w", "rid": "102"}        
+      ]      
+    },
+    {
+      "rid": "109",
+      "name": "Road",
+      "desc": 
+      [
+        "road through  district",
+        "adsfsadf  dsfadf sa dfsadfas dfs a dfsfdssf sadf sd fsad sdfaasd"
+      ],
+      "img": "/img/rooms/109.jpg",      
+      "exits": [
+        {"dir": "e", "rid": "116"},
+        {"dir": "s", "rid": "110"},        
+        {"dir": "w", "rid": "100"}        
+      ]      
+    },
+    {
+      "rid": "110",
+      "name": "Scholar's District",
+      "desc": 
+      [
+        "road through schaolrs district",
+        "adsfsadf  dsfadf sa dfsadfas dfs a dfsfdssf sadf sd fsad sdfaasd"
+      ],
+      "img": "/img/rooms/110.jpg",      
+      "exits": [
+        {"dir": "n", "rid": "109"},
+        {"dir": "s", "rid": "111"},
+        {"dir": "w", "rid": "106"}           
+      ]      
+    },
+    {
+      "rid": "111",
+      "name": "Arkkward Port District",
+      "desc": 
+      [
+        "Travellers line the piers, and ships fill the docks of the harbor as workers load and unload their precious cargo. Warehouses fill the district, full of exotic wares brought from other regions of the world. For a price, captains and their boats can be sought out here if one wishes to travel by sea.",
+        "Rumor is the Ring of Shadow operates from beneath the port, implementing their machinations and intrigue."
+      ],
+      "img": "/img/rooms/111.jpg",      
+      "exits": [
+        {"dir": "n", "rid": "110"},
+        {"dir": "d", "rid": "105", "hidden": 1, "locked": 1}        
+      ],
+      "options": [
+        {"id": "106", "name": "Sail to Dragonspine Islands"}
+      ]
+    },
+    {
+      "rid": "112",
+      "name": "East Gate",
+      "desc": 
+      [
+        "The east gate, main access point for the city",
+        "adsfsadf  dsfadf sa dfsadfas dfs a dfsfdssf sadf sd fsad sdfaasd"
+      ],
+      "img": "/img/rooms/112.jpg",      
+      "exits": [
+        {"dir": "e", "rid": "113"},
+        {"dir": "s", "rid": "107"},
+        {"dir": "w", "rid": "116"}
+      ]      
+    },
+    {
+      "rid": "113",
+      "name": "City Approach",
+      "desc": 
+      [
+        "outside approach",
+        "adsfsadf  dsfadf sa dfsadfas dfs a dfsfdssf sadf sd fsad sdfaasd"
+      ],
+      "img": "/img/rooms/113.jpg",      
+      "exits": [
+        {"dir": "n", "rid": "103"},
+        {"dir": "w", "rid": "112"},
+        {"dir": "d", "rid": "105", "hidden": 1, "locked": 1}
+      ]      
+    },
+    {
+      "rid": "114",
+      "name": "Shop District",
+      "desc": 
+      [
+        "road through shops",
+        "adsfsadf  dsfadf sa dfsadfas dfs a dfsfdssf sadf sd fsad sdfaasd"
+      ],
+      "img": "/img/rooms/114.jpg",      
+      "exits": [
+        {"dir": "e", "rid": "100"},
+        {"dir": "s", "rid": "115"}
+      ]      
+    },
+    {
+      "rid": "115",
+      "name": "Blacksmith",
+      "desc": 
+      [
+        "Blacksmith",
+        "adsfsadf  dsfadf sa dfsadfas dfs a dfsfdssf sadf sd fsad sdfaasd"
+      ],
+      "img": "/img/rooms/115.jpg",      
+      "exits": [
+        {"dir": "n", "rid": "114"}
+      ]      
+    },
+    {
+      "rid": "116",
+      "name": "Entertainment District",
+      "desc": 
+      [
+        "entertains",
+        "adsfsadf  dsfadf sa dfsadfas dfs a dfsfdssf sadf sd fsad sdfaasd"
+      ],
+      "img": "/img/rooms/116.jpg",      
+      "exits": [
+        {"dir": "n", "rid": "101"},
+        {"dir": "e", "rid": "112"},
+        {"dir": "w", "rid": "109"}  
+      ]      
+    }
+  ]
+}
