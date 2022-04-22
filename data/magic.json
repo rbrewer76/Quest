@@ -1,0 +1,1874 @@
+[
+  {
+    "id": "arc",
+    "name": "Arcane",
+    "desc": "Sorcery at its rawest is in the form of arcane energy, and this energy is molded and manipulated to create the effects of all other Arcane Specializations.",
+    "img": "/icons/arcane-specs/as-arcane.jpg",
+    "spells": [
+      {
+        "name": "Arcane Bolt",
+        "id": "",
+        "desc": "The sorcerer creates a light-purple bolt of arcane energy that unerringly slams into an enemy. [Arcane]",
+        "rankdesc": [
+          "+1D8 Damage",
+          "+1D8 Damage",
+          "+2D8 Damage, Stagger"
+        ]
+      },
+      {
+        "name": "Arcane Ward",
+        "id": "",
+        "desc": "An aura surrounds a target ally protecting it and granting resistance to arcane energy. Those protected take less damage from attacks that do [Arcane] damage. Only one type of ward may be active at a time.",
+        "rankdesc": [
+          "Arcane Resistance: +4",
+          "Arcane Resistance: +4",
+          "Arcane Resistance: +4, Effect all group members"
+        ]
+      },
+      {
+        "name": "Discern Magic",
+        "id": "",
+        "desc": "A sorcerer can attempt to unlock the mystery of an enchanted object. By studying it, the magical properties might be discerned.",
+         "rankdesc": [
+          "Identify Tier 1 Magic Item",
+          "Identify Tier 2 Magic Item",
+          "Identify Tier 3 Magic Item"
+        ]
+      },
+      {
+        "name": "Dispel Magic",
+        "id": "",
+        "desc": "A sorcerer can attempt to break an enchantment and remove the magical effect from a creature. If the target is an ally, one negative effect will be removed. If the target is an enemy, one beneficial effect will be removed. If the target has multiple magical effects affecting it, one will be chosen at random.",
+        "rankdesc": [
+          "Removes Tier 1 Effect",
+          "Removes Tier 2 Effect",
+          "Removes Tier 3 Effect, Remove all magical effects"
+        ]
+      },
+      {
+        "name": "Read Magic",
+        "id": "",
+        "desc": "Interpreting arcane writings normally requires extensive learning and they may be in the form of runes or symbols that are hard to understand. While under the effects of Read Magic, the sorcerer has an innate understanding of magical writing and can easily read its script.",
+        "rankdesc": [
+          "Read Tier 1",
+          "Read Tier 2",
+          "Read Tier 3"
+        ]
+      },
+      {
+        "name": "Resist Magic",
+        "id": "",
+        "desc": "The caster is granted resistance to all magical effects, beneficial and harmful.",
+        "rankdesc": [
+          "Magic Resistance +1",
+          "Magic Resistance +1",
+          "Magic Resistance +2"
+        ]
+      },
+      {
+        "name": "Sense Magic",
+        "id": "",
+        "desc": "All magic has a hidden aura about it. A sorcerer that can sense those auras can use them to determine what enchantments are affecting thier allies and enemies.",
+        "rankdesc": [
+          "Sense Tier 1",
+          "Sense Tier 2",
+          "Sense Tier 3"
+        ]
+      },
+      {
+        "name": "Teleport",
+        "id": "",
+        "desc": "Scattered across the land are anchient magical stones built by unknown beings of ages past. Sorcerers can use the magical energies that surround them to deconstruct themselves and their allies and then reconstitute elsewhere.",
+        "rankdesc": [
+          "Use Tier 1 Teleport Stones",
+          "Use Tier 2 Teleport Stones",
+          "Use Tier 3 Teleport Stones"
+        ]
+      } 
+    ],
+    "legend": [
+      {
+        "name": "Anti-Magic Zone",
+        "id": "",
+        "desc": "The sorcerer creates an area within and adjacent to their rank, that hinders spell casting and the functioning of magic items of anyone within, or targeting those ranks. If the Anti-Magic Zone would lower the Tier of a spell being cast to 0 or below, the spell fizzles out. If there are ongoing spell effects or magic items then the Anti-Magic Zone may suppress the effects if their Tier is modified to 0 or below. If the Anti-Magic Zone is not strong enough to reduce the Tier to 0 or below then the magic functions normally.",
+        "rankdesc": [
+          "Spell Tier -1",
+          "Spell Tier -2",
+          "Spell Tier -3"
+        ]
+      },
+      {
+        "name": "Wish",
+        "id": "",
+        "desc": "Make a wish, any wish at all. ",
+        "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }        
+    ]
+  },
+  {
+    "id": "sos",
+    "name": "Bardic Songs of Sorcery",
+    "desc": "Bards use performance to create magic. They spin dances, melody, and stories into grand effect.",
+    "img": "",
+    "require": {"id": "bar"},
+    "spells": [
+      {
+        "name": "Blazing Dragon",
+        "id": "",
+        "desc": "As the bard plays, a small fiery dragon appears nearby, swirling and darting about. Each turn that a bard sustains the performance, the dragon will fly through all enemies in the targeted rank.",
+        "rankdesc": [
+          "+1D6 Damage",
+          "+1D6 Damage",
+          "+2D6 Damage"
+        ]
+      },
+      {
+        "name": "Campfire Lullaby",
+        "id": "",
+        "desc": "",
+        "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Captivate",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+        "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Dance of Shadows",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+        "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Dissonant Chords",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+        "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Nature’s Melody",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+        "rankdesc": [
+          "+1 Resistance: Acid, Cold, Electricity, Fire",
+          "+1 Resistance: Acid, Cold, Electricity, Fire",
+          "+2 Resistance: Acid, Cold, Electricity, Fire"
+        ]
+      },
+      {
+        "name": "Song of Everlasting Sorrow",
+        "id": "",
+        "desc": "",
+        "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Song of Inspiration",
+        "id": "",
+        "desc": "The bard’s song is a quick paced tune that inspires those who hear it with hope and fervor. Any allies that can hear the bard and are within 30’ are filled with new found inspiration.",
+        "rankdesc": [
+          "(DIS) +1 vs Fear",
+          "(DIS) +1 vs Fear",
+          "(DIS) +1 vs Fear"
+        ]
+      }              
+    ],
+    "legend": [
+      {
+        "name": "spell 1",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+        "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "",
+        "id": "",
+        "desc": "",
+        "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }        
+    ]
+  },
+  {
+    "id": "des",
+    "name": "Destruction",
+    "desc": "Destruction descdsfa s d fasdf dsafsad fd asfdafsad fa sdfa sdf asdfs da f ds f df da asdf afsad dsaf sad fadsfads fads f df",
+    "img": "/icons/arcane-specs/as-destruction.jpg",
+    "spells": [
+      {
+        "name": "spell 1",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+        "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 2",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+        "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 3",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+        "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 4",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+        "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 5",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+        "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 6",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+        "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 7",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+        "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 8",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+        "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "legend": [
+      {
+        "name": "spell 1",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+        "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 2",
+        "id": "",
+        "desc": "spell 2 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+        "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }        
+    ]
+  },
+  {
+    "id": "dru",
+    "name": "Druidic",
+    "desc": "Druidic descdsfa s d fasdf dsafsad fd asfdafsad fa sdfa sdf asdfs da f ds f df da asdf afsad dsaf sad fadsfads fads f df",
+    "img": "/icons/arcane-specs/as-druidic.jpg",
+    "require": {"id": "dru"},
+    "spells": [
+      {
+        "name": "Bark Armor",
+        "id": "",
+        "desc": "The sorcerer becomes wrapped in a thick bark armor that provides protection against attacks. The caster cannot be wearing any other type of armor.",
+                "rankdesc": [
+          "+2 Defense",
+          "+2 Defense",
+          "+2 Defense, Acid Resistance: +4, -1 Evasion"
+        ]
+      },
+      {
+        "name": "Call Animal Companion",
+        "id": "",
+        "desc": "Help is summoned from the wild. Something that would natively be found in the area. At the end of the duration it leaves",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Call Swarm",
+        "id": "",
+        "desc": "Upon casting, Call Swarm calls forth a swarm of bees, wasps, scarabs, scorpions, and other insects.",
+                "rankdesc": [
+          "+1D6 Damage, Armor Penetration: +4",
+          "+1D6 Damage, Armor Penetration: +4, Weak Poison",
+          "+1D6 Damage, Armor Penetration: +4, Strong Poison"
+        ]
+      },
+      {
+        "name": "Call Lightning",
+        "id": "",
+        "desc": "With a thunderous bang, a lightning bolt is called from the sky to strike nearby. [Electric]",
+                "rankdesc": [
+          "+1D6 Damage, Blind, Disorient",
+          "+1D6 Damage",
+          "+2D6 Damage, Stun"
+        ]
+      },
+      {
+        "name": "Claws of the Beast",
+        "id": "",
+        "desc": "You grow long razor sharp claws like a bear, counts as magical",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Moonblade",
+        "id": "",
+        "desc": "Creates a pale blade of energy resembling moonlight that only the sorcerer may wield. The blade is equivalent to a short sword and any Expertise or other modifiers that would affect a short sword, affect the Moonblade. [Arcane]",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Nature’s Shroud",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "(RES) +1 vs Disease, Poison",
+          "(RES) +1 vs Disease, Poison",
+          "Immunity to Disease and Poison"
+        ]
+      },
+      {
+        "name": "Tanglevine",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "legend": [
+      {
+        "name": "Creeping Death",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Shapeshift",
+        "id": "",
+        "desc": "spell 2 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }        
+    ]
+  },      
+  {
+    "id": "ell",
+    "name": "Elemental",
+    "desc": "Sorcerers that delve into the Elemental Specialization have attuned themselves to all four elements and mastered them equally.",
+    "img": "",
+    "spells": [
+      {
+        "name": "Elemental Arrows",
+        "id": "",
+        "desc": "Magical arrows appear next to the sorcerer and fly toward a single enemy striking it. Each arrow created is of a random elemental type. [Acid] [Cold] [Electric] [Fire]",
+                "rankdesc": [
+          "+1D4 Damage, +2 Arrows",
+          "+1D4 Damage, +1 Arrow",
+          "+1D4 Damage, +1 Arrow"
+        ]
+      },
+      {
+        "name": "Elemental Backlash",
+        "id": "",
+        "desc": "Whenever the sorcerer is hit with a melee attack, elemental energy lashes back at the attacker. For each attack, randomly determine the damage type of the backlash. [Acid] [Cold] [Electric] [Fire]",
+                "rankdesc": [
+          "+1D4 Damage",
+          "+1D4 Damage",
+          "+2D4 Damage"
+        ]
+      },
+      {
+        "name": "Elemental Fury",
+        "id": "",
+        "desc": "The sorcerer opens a conduit to all four elemental planes allowing their energy to seep in. The sorcerer and any ally in the same rank, who cast a spell that deals an elemental damage type (Acid, Cold, Electric, Fire) has their spell’s effect increased. This increase in damage applies to all damage sources.",
+                "rankdesc": [
+          "+1 Damage",
+          "+1 Damage",
+          "+2 Damage"
+        ]
+      },
+      {
+        "name": "Elemental Storm",
+        "id": "",
+        "desc": "A raging elemental storm of energy engulfs an area, hitting each enemy within the targeted rank. Each casting randomly determine the Damage Type. [Acid] [Cold] [Electric] [Fire]",
+                "rankdesc": [
+          "+1D4 Damage",
+          "+1D4 Damage",
+          "+1D4 Damage"
+        ]
+      },
+      {
+        "name": "Elemental Ward",
+        "id": "",
+        "desc": "Sorcerer gains a bonus to all elemental resistances. Only one type of ward may be active at a time.",
+                "rankdesc": [
+          "+1 Resistance: Acid, Cold, Electricity, Fire",
+          "+1 Resistance: Acid, Cold, Electricity, Fire",
+          "+2 Resistance: Acid, Cold, Electricity, Fire"
+        ]
+      },
+      {
+        "name": "Elemental Weapon",
+        "id": "",
+        "desc": "Creates a blade of elemental energy that only the sorcerer may wield. The blade is equivalent to a short sword and any Expertise or other modifiers that would affect a short sword, affect the Elemental Weapon. The damage type is randomly determined when created. [Acid] [Cold] [Electric] [Fire]",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "",
+        "id": "",
+        "desc": "",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "",
+        "id": "",
+        "desc": "",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "legend": [
+      {
+        "name": "Elemental Maelstrom",
+        "id": "",
+        "desc": "The sorcerer takes on the form of a swirling mass of elemental energy. In this form, the caster gains immunity to the elements, cannot use any weapons, or cast any spells that are not from the Elemental Specialization.",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Ire of the Elemental Lords",
+        "id": "",
+        "desc": "The four Elemental Lords, Beraska, Dragar, Leviath, and Limmisa, join their power to rain down destruction",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }        
+    ]
+  },
+  {
+    "id": "ela",
+    "name": "Elemental Air",
+    "desc": "Elemental Air descdsfa s d fasdf dsafsad fd asfdafsad fa sdfa sdf asdfs da f ds f df da asdf afsad dsaf sad fadsfads fads f df",
+    "img": "/icons/arcane-specs/as-air.jpg",
+    "spells": [
+      {
+        "name": "Arc Lightning",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Flight",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Lightning Bolt",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "+1D8 Damage",
+          "+1D8 Damage",
+          "+1D8 Damage, Stun"
+        ]
+      },
+      {
+        "name": "Shock Ward",
+        "id": "",
+        "desc": "An aura surrounds the target and they take less damage from electricity. Those protected shine with a light crackling yellow aura. Only one type of ward may be active at a time.",
+                "rankdesc": [
+          "Electricity Resistance: +4",
+          "Electricity Resistance: +4",
+          "Electricity Resistance: +4"
+        ]
+      },
+      {
+        "name": "spell 5",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 6",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 7",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 8",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "legend": [
+      {
+        "name": "Born of Wind",
+        "id": "",
+        "desc": "The sorcerer transforms into Air.   Immune to [Electric],  Fly",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 2",
+        "id": "",
+        "desc": "spell 2 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }        
+    ]
+  },
+  {
+    "id": "ele",
+    "name": "Elemental Earth",
+    "desc": "Elemental Earth descdsfa s d fasdf dsafsad fd asfdafsad fa sdfa sdf asdfs da f ds f df da asdf afsad dsaf sad fadsfads fads f df",
+    "img": "",
+    "spells": [
+      {
+        "name": "Acid Rain",
+        "id": "",
+        "desc": "A rain of caustic acid seemingly pours down from nowhere. The Armor Penetration effect lasts for 2 turns and applies to all attacks made during that time.",
+                "rankdesc": [
+          "+1D4 Damage, Armor Penetration: +2",
+          "+1D4 Damage, Armor Penetration: +2",
+          "+1D4 Damage, Armor Penetration: +2"
+        ]
+      },
+      {
+        "name": "Acid Ward",
+        "id": "",
+        "desc": "An aura surrounds the target and they take less damage from acid. Those protected shine with a flickering pale green aura. Only one type of ward may be active at a time.",
+                "rankdesc": [
+          "Acid Resistance: +4",
+          "Acid Resistance: +4",
+          "Acid Resistance: +4"
+        ]
+      },
+      {
+        "name": "Golem",
+        "id": "",
+        "desc": "Stone, mud, rock, metal all around binds together to form a golem ally",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Petrify",
+        "id": "",
+        "desc": "You turn a creature to stone",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Stone Skin",
+        "id": "",
+        "desc": "The outer layer of the target’s skin becomes crusty and hard as rock.  ",
+                "rankdesc": [
+          "+1 Defense",
+          "+1 Defense",
+          "+1 Defense"
+        ]
+      },
+      {
+        "name": "Wall of Stone",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "Defense 5",
+          "Defense 10",
+          "Defense 15"
+        ]
+      },
+      {
+        "name": "spell 7",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 8",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "legend": [
+      {
+        "name": "Born of Earth",
+        "id": "",
+        "desc": "Turns into rock like.   Immune to [Acid]    High +defense",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },        
+      {
+        "name": "Meteor",
+        "id": "",
+        "desc": "Deals Physical and Fire damage",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "elf",
+    "name": "Elemental Fire",
+    "desc": "Fire, the burning flame of destruction, relentlessly consumes all",
+    "img": "/icons/arcane-specs/as-fire.jpg",
+    "spells": [
+      {
+        "name": "Circle of Flame",
+        "id": "",
+        "desc": "A blazing, stationary circle of fire erupts around the caster and continues to burn. Any enemy in an adjacent rank is caught within the effect and is engulfed in flame.",
+                "rankdesc": [
+          "+1D4 Damage, Ignite",
+          "+1D4 Damage",
+          "+2D4 Damage"
+        ]
+      },
+      {
+        "name": "Dragon’s Fire",
+        "id": "",
+        "desc": "The sorcerer sprays a jet of flame that scorches all in its path. The flame hits one target in each enemy rank.",
+                "rankdesc": [
+          "+1D10 Damage, Ignite",
+          "+1D10 Damage",
+          "+1D10 Damage"
+        ]
+      },
+      {
+        "name": "Fireball",
+        "id": "",
+        "desc": "The sorcerer conjures a blazing ball of fire and hurls it at a target where it detonates and explodes dealing damage to all in its rank.",
+                "rankdesc": [
+          "+1D6 Damage, Ignite",
+          "+1D6 Damage",
+          "+1D6 Damage"
+        ]
+      },
+      {
+        "name": "Fire Storm",
+        "id": "",
+        "desc": "Persistent waves of heat and flame form, enveloping, and burning all that are caught within the area.",
+                "rankdesc": [
+          "+1D4 Damage, Ignite",
+          "+1D4 Damage",
+          "+1D4 Damage"
+        ]
+      },
+      {
+        "name": "Flame Ward",
+        "id": "",
+        "desc": "An aura surrounds the target and they take less damage from fire. Those protected shine with a flickering orange aura. Only one type of ward may be active at a time.",
+                "rankdesc": [
+          "Fire Resistance: +4",
+          "Fire Resistance: +4",
+          "Fire Resistance: +4"
+        ]
+      },
+      {
+        "name": "Incinerate",
+        "id": "",
+        "desc": "The sorcerer causes a single target to become enveloped in an intensely burning flame. Anyone killed through incineration leaves nothing but ashen remains.",
+                "rankdesc": [
+          "+1D8 Damage, Ignite",
+          "+1D8 Damage",
+          "+2D8 Damage"
+        ]
+      },
+      {
+        "name": "Nova",
+        "id": "",
+        "desc": "The caster ignites with an intensely bright light that explodes outwardly. Any enemy caught within an adjacent rank feels the searing heat.",
+                "rankdesc": [
+          "+1D4 Damage, Blind",
+          "+1D4 Damage",
+          "+1D4 Damage"
+        ]
+      },
+      {
+        "name": "Wall of Fire",
+        "id": "",
+        "desc": "A wall of blazing fire rises from the ground damaging creatures caught within it.",
+                "rankdesc": [
+          "+1D6 Damage, Ignite",
+          "+1D6 Damage",
+          "+1D6 Damage"
+        ]
+      }
+    ],
+    "legend": [
+      {
+        "name": "Born of Flame",
+        "id": "",
+        "desc": "The sorcerer transforms into a fiery version of oneself embodying the destructive power of flame. While in this form the sorcerer is immune to fire damage and only Elemental Fire sorceries may be cast. ",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Firya’s Wrath",
+        "id": "",
+        "desc": "When evoking Firya’s Wrath a series of flaming arrows forming a halo burst into existence above the sorcerer’s head before launching toward their target.",
+                "rankdesc": [
+          "+2 Arrows, +1D10 Damage, Ignite",
+          "+1 Arrows, +1D10 Damage",
+          "+1 Arrows, +1D10 Damage"
+        ]
+      }        
+    ]
+  },
+  {
+    "id": "elw",
+    "name": "Elemental Water",
+    "desc": "Elemental Water descdsfa s d fasdf dsafsad fd asfdafsad fa sdfa sdf asdfs da f ds f df da asdf afsad dsaf sad fadsfads fads f df",
+    "img": "/icons/arcane-specs/water.jpg",
+    "spells": [
+      {
+        "name": "Aqua Transit",
+        "id": "",
+        "desc": "lets swim",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Blizzard",
+        "id": "",
+        "desc": "The area surrounding the caster sees its temperature plummet to below freezing and a blinding snowstorm begins raging.",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Cold Snap",
+        "id": "",
+        "desc": "A gust of frigid air circles the sorcerer and frost forms on the ground. Any enemy within an adjacent rank is blasted by the freezing, cold air.",
+                "rankdesc": [
+          "+1D4 Damage, Chill",
+          "+1D4 Damage",
+          "+2D4 Damage"
+        ]
+      },
+      {
+        "name": "Cold Ward",
+        "id": "",
+        "desc": "An aura surrounds the target and they take less damage from the cold. Those protected shine with a flickering white and blue aura. Only one type of ward may be active at a time.",
+                "rankdesc": [
+          "Cold Resistance: +4",
+          "Cold Resistance: +4",
+          "Cold Resistance: +4"
+        ]
+      },
+      {
+        "name": "Freeze",
+        "id": "",
+        "desc": "Creature becomes frozen as body turns into ice.",
+                "rankdesc": [
+          "Chill",
+          "",
+          "Stun"
+        ]
+      },
+      {
+        "name": "Ice Shield",
+        "id": "",
+        "desc": "A hovering block of ice forms and positions itself between the sorcerer and any enemies. The shield moves with the sorcerer and will stay in a position that offers protection. After 3 successful attacks from an enemy the shield will break.",
+                "rankdesc": [
+          "+1 Defense, Fire Resistance: +1",
+          "+1 Defense, Fire Resistance: +1",
+          "+1 Defense, Fire Resistance: +2"
+        ]
+      },
+      {
+        "name": "Ice Storm",
+        "id": "",
+        "desc": "Large frozen balls and shards of ice fall from the sky battering enemies. The fragments of ice deal a mix of [Physical] Damage and [Cold] Damage.",
+                "rankdesc": [
+          "+1D4 Damage, +1D4 Damage [Cold]",
+          "+1D4 Damage, +1D4 Damage [Cold]",
+          "+1D4 Damage, +1D4 Damage [Cold]"
+        ]
+      },
+      {
+        "name": "Water Hydra",
+        "id": "",
+        "desc": "Creates water columns that attack enemies.",
+                "rankdesc": [
+          "+2 Hydra, +1D4 Damage",
+          "+1 Hydra, +1D4 Damage",
+          "+1 Hydra, +1D4 Damage"
+        ]
+      }
+    ],
+    "legend": [
+      {
+        "name": "Born of Winter",
+        "id": "",
+        "desc": "The sorcerers skin freezes over and becomes cold to the touch taking on a pale white and blue color that looks like ice. An intense cold can be felt radiating from the caster.",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Leviath’s Jaw",
+        "id": "",
+        "desc": "Like the depths where Leviath stirs, the pressure of the water surrounding an enemy rises to crushing levels as if they were deep in the ocean’s abyss where nothing else can survive. Leviath’s Jaw is only usable on a target that is fully submerged.",
+                "rankdesc": [
+          "+2D10 Damage, Ignores Defense",
+          "+2D10 Damage",
+          "+2D10 Damage"
+        ]
+      }        
+    ]
+  },
+  {
+    "id": "enc",
+    "name": "Enchantment",
+    "desc": "Enchantment descdsfa s d fasdf dsafsad fd asfdafsad fa sdfa sdf asdfs da f ds f df da asdf afsad dsaf sad fadsfads fads f df",
+    "img": "/icons/arcane-specs/as-enchantment.jpg",
+    "spells": [
+      {
+        "name": "spell 1",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 2",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 3",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 4",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 5",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 6",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 7",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 8",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "legend": [
+      {
+        "name": "spell 1",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 2",
+        "id": "",
+        "desc": "spell 2 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }        
+    ]
+  },        
+  {
+    "id": "hea",
+    "name": "Healing",
+    "desc": "Healing descdsfa s d fasdf dsafsad fd asfdafsad fa sdfa sdf asdfs da f ds f df da asdf afsad dsaf sad fadsfads fads f df",
+    "img": "/icons/arcane-specs/as-healing.jpg",
+    "spells": [
+      {
+        "name": "Cure Disease",
+        "id": "",
+        "desc": "Removes a disease from an afflicted target.",
+                "rankdesc": [
+          "Remove Tier 1 Diseases",
+          "Remove Tier 2 Diseases",
+          "Remove Tier 3 Diseases"
+        ]
+      },
+      {
+        "name": "Cure Poison",
+        "id": "",
+        "desc": "Removes a Poison from the body of a target curing them of any adverse effects.",
+                "rankdesc": [
+          "Cures Weak Poisons",
+          "Cures Strong Poisons",
+          "Cures Potent Poisons"
+        ]
+      },
+      {
+        "name": "Death’s Anchor",
+        "id": "",
+        "desc": "Prevents an ally from dropping below 0 HP. If a target is already below 0 HP they do not take any more damage and death is delayed until the spell ends.",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Death Ward",
+        "id": "",
+        "desc": "An aura surrounds the target and they take less damage from the draining effects of death. Those protected shine with a lightly glowing white aura. Only one type of ward may be active at a time.",
+                "rankdesc": [
+          "Death Resistance: +4",
+          "Death Resistance: +4",
+          "Death Resistance: +4"
+        ]
+      },
+      {
+        "name": "Healing",
+        "id": "",
+        "desc": "Heals a target of its wounds.",
+                "rankdesc": [
+          "+Heal 1D10",
+          "+Heal 1D10",
+          "+Heal 1D10"
+        ]
+      },
+      {
+        "name": "Healing Burst",
+        "id": "",
+        "desc": "Heals allies within same rank.",
+                "rankdesc": [
+          "+Heal 1D6",
+          "+Heal 1D6",
+          "+Heal 1D6"
+        ]
+      },
+      {
+        "name": "Lift Curse",
+        "id": "",
+        "desc": "Removes a curse affecting a target",
+                "rankdesc": [
+          "Remove Tier 1 Curses",
+          "Remove Tier 2 Curses",
+          "Remove Tier 3 Curses"
+        ]
+      },
+      {
+        "name": "Renewal",
+        "id": "",
+        "desc": "Heals a target each turn over a short period of time. ",
+                "rankdesc": [
+          "+Heal 1D4",
+          "+Heal 1D4",
+          "+Heal 1D4"
+        ]
+      }
+    ],
+    "legend": [
+      {
+        "name": "Restoration",
+        "id": "",
+        "desc": "A powerful healing spell that restores an individual",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Resurrection",
+        "id": "",
+        "desc": "Brings a target ally back to life",
+                "rankdesc": [
+          "1 HP",
+          "Half Health",
+          "Full Health"
+        ]
+      }        
+    ]
+  },
+  {
+    "id": "ill",
+    "name": "Illusion",
+    "desc": "Illusion descdsfa s d fasdf dsafsad fd asfdafsad fa sdfa sdf asdfs da f ds f df da asdf afsad dsaf sad fadsfads fads f df",
+    "img": "/icons/arcane-specs/as-illusion.jpg",
+    "spells": [
+      {
+        "name": "spell 1",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 2",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 3",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 4",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 5",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 6",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 7",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 8",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "legend": [
+      {
+        "name": "spell 1",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 2",
+        "id": "",
+        "desc": "spell 2 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }        
+    ]
+  },  
+  {
+    "id": "nec",
+    "name": "Necromancy",
+    "desc": "Necromancy descdsfa s d fasdf dsafsad fd asfdafsad fa sdfa sdf asdfs da f ds f df da asdf afsad dsaf sad fadsfads fads f df",
+    "img": "/icons/arcane-specs/as-necromancy.jpg",
+    "spells": [
+      {
+        "name": "Enervate",
+        "id": "",
+        "desc": "Necromantic magic steals away a creatures life essence leaving it weakened and sickly. Their skin appears to age and shrivel as their body fails them.",
+                "rankdesc": [
+          "(RES) - 1",
+          "(RES) - 1",
+          "(RES) - 1"
+        ]
+      },
+      {
+        "name": "Enfeeble",
+        "id": "",
+        "desc": "Exposure to the Frostwind saps a creature’s strength leaving it feeble and weak.",
+                "rankdesc": [
+          "(MIT) - 1",
+          "(MIT) - 1",
+          "(MIT) - 1"
+        ]
+      },
+      {
+        "name": "Frostwind Aura",
+        "id": "",
+        "desc": "The sorcerer creates a small tear in the veil causing the Frostwind to spill into the area affecting all creatures within the targeted rank. [Death]",
+                "rankdesc": [
+          "+1D6 Damage",
+          "+1D6 Damage",
+          "+1D6 Damage, Chill"
+        ]
+      },
+      {
+        "name": "Gather Spirits",
+        "id": "",
+        "desc": "Summon lesser spirits",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Life Leech",
+        "id": "",
+        "desc": "Steals life from living victims and restores yours.",
+                "rankdesc": [
+          "+1D4 Damage",
+          "+1D4 Damage",
+          "+2D4 Damage"
+        ]
+      },
+      {
+        "name": "Raise Dead",
+        "id": "",
+        "desc": "Create animated lesser undead",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Spirit Shield",
+        "id": "",
+        "desc": "The sorcerer is swapped in a pale shroud that protect vs Incorporeal attacks only.",
+                "rankdesc": [
+          "+2 Defense",
+          "+2 Defense",
+          "+2 Defense"
+        ]
+      },
+      {
+        "name": "The Pale Grasp",
+        "id": "",
+        "desc": "The sorcerer’s hand takes on a pale and almost skeletal appearance as it reaches out to channel the Frostwind into a victim. [Death]",
+                "rankdesc": [
+          "+1D8 Damage, Fear 1",
+          "+1D8 Damage",
+          "+1D8 Damage, Chill"
+        ]
+      }
+    ],
+    "legend": [
+      {
+        "name": "Death’s Embrace",
+        "id": "",
+        "desc": "While under this curse HP healing is less effective",
+                "rankdesc": [
+          "Healing spells are only three-quarters effective",
+          "Healing spells are only half effective",
+          "Healing spells have no effect"
+        ]
+      },
+      {
+        "name": "Lichdom",
+        "id": "",
+        "desc": "You become a lich",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }        
+    ]
+  },
+  {
+    "id": "pro",
+    "name": "Protection",
+    "desc": "Protection descdsfa s d fasdf dsafsad fd asfdafsad fa sdfa sdf asdfs da f ds f df da asdf afsad dsaf sad fadsfads fads f df",
+    "img": "/icons/arcane-specs/as-protection.jpg",
+    "spells": [
+      {
+        "name": "Magic Armor",
+        "id": "",
+        "desc": "The sorcerer creates a protective, translucent armor providing protection against attacks and arcane damage.",
+                "rankdesc": [
+          "+1 Defense, Arcane Resistance: +2",
+          "+1 Defense, Arcane Resistance: +2",
+          "+1 Defense, Arcane Resistance: +2"
+        ]
+      },
+      {
+        "name": "spell 2",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 3",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 4",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Protection Against Elements Ward",
+        "id": "",
+        "desc": "An aura surrounds the target and they take less damage from a chosen element: Acid, Cold, Fire, or Electric. Those protected shine with an aura similar to the full ward. Only one type of ward may be active at a time.",
+                "rankdesc": [
+          "Resistance: +2",
+          "Resistance: +2",
+          "Resistance: +2"
+        ]
+      },
+      {
+        "name": "Resist Disease",
+        "id": "",
+        "desc": "To ward off the effects of Disease",
+                "rankdesc": [
+          "(RES) + 1 vs Disease",
+          "(RES) + 1 vs Disease",
+          "(RES) + 1 vs Disease"
+        ]
+      },
+      {
+        "name": "Resist Poison",
+        "id": "",
+        "desc": "To combat the effects of Poison.",
+                "rankdesc": [
+          "(RES) + 1 vs Poison",
+          "(RES) + 1 vs Poison",
+          "(RES) + 1 vs Poison"
+        ]
+      },
+      {
+        "name": "Shared Life",
+        "id": "",
+        "desc": "Sorcerer takes half the damage a targeted ally would take",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "legend": [
+      {
+        "name": "Immunity Ward",
+        "id": "",
+        "desc": "An aura surrounds the target granting immunity to a specified damage type Acid, Arcane, Cold, Death, Electric, Fire. Only one type of ward may be active at a time.",
+                "rankdesc": [
+          "+1 Damage Type",
+          "+1 Damage Type",
+          "+1 Damage Type"
+        ]
+      },
+      {
+        "name": "spell 2",
+        "id": "",
+        "desc": "spell 2 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }        
+    ]
+  },
+  {
+    "id": "sha",
+    "name": "Shadow",
+    "desc": "Shadow descdsfa s d fasdf dsafsad fd asfdafsad fa sdfa sdf asdfs da f ds f df da asdf afsad dsaf sad fadsfads fads f df",
+    "img": "/icons/arcane-specs/as-shadow.jpg",
+    "spells": [
+      {
+        "name": "Black Arrows",
+        "id": "",
+        "desc": "Create black, whispy arrows that slam into targets ",
+                "rankdesc": [
+          "+1D4 Damage, Armor Penetration: +2",
+          "+1D4 Damage, Armor Penetration: +2",
+          "+1D4 Damage, Armor Penetration: +2, +1 Arrow"
+        ]
+      },
+      {
+        "name": "Black Tendrils",
+        "id": "",
+        "desc": "Wisps of black tendrils spring from the ground, constricting and ensnaring a target.",
+                "rankdesc": [
+          "(AGI) - 1",
+          "+1D6 Damage",
+          "+1D6 Damage"
+        ]
+      },
+      {
+        "name": "Cloaked in Shadow",
+        "id": "",
+        "desc": "You envelop yourself in Shadow making it hard for others to distinguish you from the surroundings.",
+                "rankdesc": [
+          "+1 Stealth",
+          "+1 Stealth",
+          "+1 Stealth"
+        ]
+      },
+      {
+        "name": "spell 4",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 5",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 6",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 7",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 8",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "legend": [
+      {
+        "name": "spell 1",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "Shadow Form",
+        "id": "",
+        "desc": "In Shadowform take on the appearance of deep black shadow with wispy purple eyes.",
+                "rankdesc": [
+          "Immune to Cold",
+          "Immune to Critical Damage",
+          ""
+        ]
+      }        
+    ]
+  },
+  {
+    "id": "sum",
+    "name": "Summoning",
+    "desc": "Summoning descdsfa s d fasdf dsafsad fd asfdafsad fa sdfa sdf asdfs da f ds f df da asdf afsad dsaf sad fadsfads fads f df",
+    "img": "/icons/arcane-specs/as-summoning.jpg",
+    "spells": [
+      {
+        "name": "spell 1",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 2",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 3",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 4",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 5",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 6",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 7",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 8",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "legend": [
+      {
+        "name": "spell 1",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 2",
+        "id": "",
+        "desc": "spell 2 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }        
+    ]
+  },
+  {
+    "id": "wit",
+    "name": "Witchcraft",
+    "desc": "Witchcraft descdsfa s d fasdf dsafsad fd asfdafsad fa sdfa sdf asdfs da f ds f df da asdf afsad dsaf sad fadsfads fads f df",
+    "img": "/icons/arcane-specs/as-witchcraft.jpg",
+    "spells": [
+      {
+        "name": "spell 1",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 2",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 3",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 4",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 5",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 6",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 7",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 8",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "legend": [
+      {
+        "name": "spell 1",
+        "id": "",
+        "desc": "spell 1 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "name": "spell 2",
+        "id": "",
+        "desc": "spell 2 desc dfad  fd  fgvoisangf  n dfkljsd fj sdfl kdsajd sfnjn sdf jh jefj dsaf ldsad",
+                "rankdesc": [
+          "",
+          "",
+          ""
+        ]
+      }        
+    ]
+  }           
+]
